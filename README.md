@@ -1,2 +1,2 @@
 # IST-MDJ
-Work made in MDJ 2018/2019
+Work made in Game Development Methodology (Metodologia de Desenvolvimento de Jogos) 2018/2019
