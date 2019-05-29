@@ -128,6 +128,8 @@ public class Player : MonoBehaviour
     // X-ray ability
     public bool canUseXRays = false;
 
+    public GameObject sun;
+
     public static Player instance;
 
     private void Awake() {
@@ -378,6 +380,7 @@ public class Player : MonoBehaviour
                 mainCamera.enabled = false;
                 xRayShaderCamera.enabled = true;
                 hiddenObjectsCamera.enabled = true;
+                sun.active = false;
             }
             else
             {
@@ -393,6 +396,7 @@ public class Player : MonoBehaviour
                 mainCamera.enabled = true;
                 xRayShaderCamera.enabled = false;
                 hiddenObjectsCamera.enabled = false;
+                sun.active = true;
             }
         }
     }

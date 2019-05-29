@@ -23,7 +23,7 @@ public class MovePlatforms : MonoBehaviour
 
     private void Update()
     {
-        transform.position += dir * Time.deltaTime * 10f;
+        transform.position += dir * Time.deltaTime * 7f;
         if (transform.localPosition.x >= upperLimitX || transform.localPosition.x <= lowerLimitX)
         {
             dir.x = -dir.x;

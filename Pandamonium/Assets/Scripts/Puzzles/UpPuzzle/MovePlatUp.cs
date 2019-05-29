@@ -13,9 +13,9 @@ public class MovePlatUp : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        this.transform.position += new Vector3(0, speed,0) * Time.deltaTime;
+        this.transform.localPosition+= new Vector3(0, speed,0) * Time.deltaTime;
 
-        if (transform.position.y > _inicio.y || transform.position.y < _fim.y)
+        if (transform.localPosition.y > _inicio.y || transform.localPosition.y < _fim.y)
             speed = -speed;
 
     }

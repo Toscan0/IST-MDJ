@@ -10,7 +10,7 @@ public class LifeManager : MonoBehaviour
     public Slider lifeBar;
     public float invincibileTimeAfterHurt = 2;
 
-    private float _life = 100.0f;
+    private float _life = 200.0f;
     private Animator myAnim;
 
     //WRITE TO FILE
@@ -40,7 +40,7 @@ public class LifeManager : MonoBehaviour
     //recebe um valor de 0 a 100 e passa o para 0 a 1
     private float lifeToShowInBar(float life)
     {
-        return Mathf.Clamp01(life / 100.0f);
+        return Mathf.Clamp01(life /200.0f);
     }
 
     public float life
@@ -102,9 +102,9 @@ public class LifeManager : MonoBehaviour
     public void restoreLife(float restore)
     {
         _life = _life + restore;
-        if (_life >= 100)
+        if (_life >= 200)
         {
-            _life = 100;
+            _life = 200;
         }
     }
 }

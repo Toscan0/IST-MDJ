@@ -49,7 +49,7 @@ public class Chest : MonoBehaviour
         if (!chestO)
         {
             text.SetActive(true);
-            text.transform.GetComponent<TextMesh>().text = "F to open text";
+            text.transform.GetComponent<TextMesh>().text = "F to open chest";
             text.transform.GetComponent<TextMesh>().alignment = TextAlignment.Center;
             text.transform.localPosition = new Vector3(-3.5f, 5, 0);
         }

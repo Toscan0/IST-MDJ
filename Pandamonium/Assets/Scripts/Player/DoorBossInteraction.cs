@@ -30,6 +30,7 @@ public class DoorBossInteraction : MonoBehaviour
             {
                 GameObject.Find("BossDoor").SetActive(false);
                 triggered = true; // a cheet to dont be called aguen if player open door
+                Container.SetActive(false);
             }
             else
             {

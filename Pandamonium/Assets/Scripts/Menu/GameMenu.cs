@@ -27,6 +27,7 @@ public class GameMenu : MonoBehaviour
 
     public void Restart()
     {
+        SceneManager.LoadScene("Initial Menu");
         //lm.restoreLife(100);
         //player.transform.position = gm.lastCheckpoint;
         //DestroyObject(oldBoss);
@@ -40,11 +41,11 @@ public class GameMenu : MonoBehaviour
         //SceneManager.LoadScene(mySavedScene);
 
         //SceneManager.LoadScene("Main");
-        StartCoroutine(LoadScene());
+        // StartCoroutine(LoadScene());
     }
 
-    IEnumerator LoadScene() {
+    /*IEnumerator LoadScene() {
         yield return new WaitForSeconds(2f);
         SceneManager.LoadScene("Main");
-    }
+    }*/
 }

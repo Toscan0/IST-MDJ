@@ -18,12 +18,12 @@ public class WriteOnFile : MonoBehaviour
     
     void Start()
     {
-        path = Application.persistentDataPath + "test_" + id + ".txt";
+        path = Application.persistentDataPath + "MOJO_" + id + ".txt";
 
         while (checkIfFileExists() == true)
         {
             id += 1;
-            path = Application.persistentDataPath + "test_" + id + ".txt";
+            path = Application.persistentDataPath + "MOJO_" + id + ".txt";
         }
 
         //path = Application.dataPath + "/DataFiles/test_" + id + ".txt";

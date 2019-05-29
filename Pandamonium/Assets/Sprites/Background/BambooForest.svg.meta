@@ -2,9 +2,9 @@ fileFormatVersion: 2
 guid: 7675dfcfc54a4154da578ad19fe4d737
 ScriptedImporter:
   fileIDToRecycleName:
-    100002: gameObject/BambooForest
-    400002: gameObject/BambooForest/Transform
-    21200002: gameObject/BambooForest/SpriteRenderer
+    100000: gameObject/BambooForest
+    400000: gameObject/BambooForest/Transform
+    21200000: gameObject/BambooForest/SpriteRenderer
     21300000: sprite
     100100000: gameObject
   externalObjects: {}
