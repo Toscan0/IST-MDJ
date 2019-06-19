@@ -1,0 +1,177 @@
+/*---------------- class to all ----------------*/
+/*-- Responsive tabel --*/
+.t_resposive{
+  overflow-x: auto;
+}
+
+/*-- Sub title --*/
+.sub-title{
+  text-align: center;
+  padding-top:15px;
+  margin: 0px;
+}
+
+
+
+/*---------------- Nav Bar ----------------*/
+.dropdown-item{
+  opacity: 0.5;
+  color: white;
+}
+
+.dropdown-item:hover { 
+	background-color: #333333; 
+  color: white;
+}
+
+/*---------------- About ----------------*/
+/* Create two equal columns that floats next to each other */
+.mycolumn {
+  float: left;
+  width: 50%;
+  padding: 0px;
+}
+
+/* Clear floats after the columns */
+.myrow:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+#aboutImg{
+  width: 100%;
+  height: 500px;
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .mycolumn {
+    width: 100%;
+  }
+}
+
+/*---------------- slyde ----------------*/
+
+.d-block{
+    width: 1917px;
+    height: 800px;
+}
+/*---------------- Top-10 ----------------*/
+.carDeck10{
+  text-align:center;
+  padding-top:15px;
+  padding-bottom:15px;
+}
+
+.carTop10{
+  opacity: 0.5;
+}
+
+.card-img-top {
+    height: 232px;
+}
+
+.activate{
+  opacity: 1;
+  margin-bottom: 0px;
+}
+
+.left {
+  float:left;
+  margin-left: 90px;
+}
+
+.center {
+  display: inline-block;
+  margin: 0px;
+}
+
+.right {
+  float:right;
+  margin-right: 90px;
+}
+
+#car3, #car4, #car5, #car6, #car7, #car8, #car9{
+  display: none;
+  margin-bottom: 0px;
+}
+
+/* setas e pontos ( lista)*/
+.arrowImage{
+  width: 20px;
+  height: 20px;
+  opacity: .5;
+  margin-bottom: 0px;
+}
+
+.arrowImage:hover{
+  opacity: 1;
+  margin-bottom: 0px;
+}
+
+ul.carDeckSlides{
+  text-align: center;
+  list-style-type:none;
+  margin-bottom: 0px;
+  padding-bottom: 15px;
+}
+
+ul.carDeckSlides > li{
+  display: inline-block; 
+  float: none;
+  margin-bottom: 0px;
+}
+
+.dot{
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #fff;
+  opacity: .5;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.activate, .dot:hover {
+  opacity: 1;
+}
+
+@media screen and (max-width: 800px) {
+  .left {
+    display: none;
+  }
+  .right{
+    display: none;
+  }
+  
+  /* hide slide 
+  .carDeckSlides{
+    display: none;
+  }*/
+
+}
+
+/*---------------- Footer ----------------*/
+.footerText{
+  color: white; 
+  opacity:0.8; 
+  text-align:center;
+}
+
+#Contacts{
+	overflow: hidden;
+	padding: 15px;
+	background-color: black;
+}
+
+#watermark{
+  margin-right: 30px;
+  color: white;
+  float: right;
+  opacity: 0.3;
+}
+
+
