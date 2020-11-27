@@ -1,5 +1,5 @@
 # IST-MDJ
-Work made in Game Development Methodology (Metodologia de Desenvolvimento de Jogos) 2018/2019
+Work made in Game Development Methodology class (Metodologia de Desenvolvimento de Jogos) 2018/2019
 
 Group made with:
   * Mário Cardoso (IST)
